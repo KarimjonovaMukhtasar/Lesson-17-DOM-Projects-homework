@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC CALCULATOR</title>
+</head>
+<body>
+    <div class="container">
+        <div class="result">
+            <span id="result"> Result: </span>
+        </div>
+        <label for="Number1"> Number 1: </label>
+        <input type="number" id = "number1" placeholder="Enter First Number" required>
+        <label for="Number2"> Number 2: </label>
+        <input type="number" id = "number2" placeholder="Enter Second Number" required>
+        <label for="operator"> Operator:</label>
+        <select name="operator" id="operator" placeholder="Choose Operator">
+            <option value ="operator"> Choose Operator </option>
+            <option value="add">Add(+)</option>
+            <option value= "minus" >Minus(-)</option>
+            <option value="multiply">Multiply(*)</option>
+            <option value="divide" >Divide(/)</option>
+        </select>
+        <button style="background-color: dodgerblue; color:white"id="calculate" type="submit"> Calculate</button>
+        <button  style="background-color: lightseagreen; color:black" id="reset" type="submit"> Reset </button>
+    </div>
+    <script src="./mini calculator.js"></script>
+</body>
+</html>
