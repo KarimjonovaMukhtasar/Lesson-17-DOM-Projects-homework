@@ -1,0 +1,49 @@
+*{
+    margin: 0 auto;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    box-shadow: inset;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.container{
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    width: 90px;
+    height: 80px;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    background-color:white;
+}
+input{
+    background-color:azure;
+    width: 90px;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
