@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATION</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form">
+            <div class="header">
+                <h1> REGISTRATION FORM </h1>
+            </div>
+            <label for="username">Username</label>
+            <input id="username" type="text" placeholder="Enter your name" required>
+            <div >
+                <p id="errorName" class="error"></p>
+            </div>
+            <label for="email">Email</label>
+            <input id="email" type="eamil" placeholder="Enter your email" required>
+            <div >
+                <p id="errorEmail" class="error"></p>
+            </div>
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Enter your password" required>
+            <div >
+                <p id="errorPassword" class="error" ></p>
+            </div>
+            <label for="confirm">Retype Password</label>
+            <input id="confirm" type="password" placeholder="Enter password again" required>
+            <div>
+                <p id="errorConfirm"  class="error"></p>
+            </div>
+            <button id="btn" type="submit"><b> SUBMIT </b></button>
+    </div>
+    </form>
+    </div>
+    <script src="./form.js"></script>
+</body>
+
+</html>
