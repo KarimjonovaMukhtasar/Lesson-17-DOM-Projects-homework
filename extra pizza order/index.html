@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA ORDER</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Pitsa buyurtma qilish</h1>
+            <i id="card" class="fa-solid fa-cart-shopping"></i>
+            <div class="order" id="order">
+                <span id="non">Noni:</span>
+                <span id="kattaligi">Kattaligi:</span>
+                <span id="ustida">Ustida:</span>
+                <span id="qo'shimcha">Qo'shimcha</span>
+                <button id="buyurtma">Buyurtma berish</button>
+            </div>
+        </div>
+        <div class="bread_container">
+            <h3 id="bread">Noni qanday bo'lsin?</h3>
+            <select id="bread">
+                <option> Non turini tanlang </option>
+                <option value="yupqa" id="yupqa"> Yupqa </option>
+                <option value="O'rtacha" id="o'rtacha"> O'rtacha </option>
+                <option value="qalin" id="qalin">Qalin</oprion>
+            </select>
+        </div>
+        <div class="size_container">
+            <h3 id="size"> Kattaligi </h3>
+            <input type="radio" id="25cm" value="25cm" name="size">
+            <label for="25cm" class="size-circle">25cm</label>
+            <input type="radio" id="30cm" value="30cm" name="size">
+            <label for="30cm" class="size-circle">30cm</label>
+            <input type="radio" id="35cm" value="35cm" name="size">
+            <label for="35cm" class="size-circle">35cm</label>
+        </div>
+        <div class="top-ingredients">
+            <h3 id="ingredients">Ustiga nima solaylik?</h3>
+            <input type="checkbox" id="tomato" value="tomato" name="tomato">
+            <label for="tomato">Pomidor</label>
+            <input type="checkbox" id="turkey" value="turkey" name="turkey">
+            <label for="turkey">Kurka go'shti</label>
+            <input type="checkbox" id="olive" value="olive" name="olive">
+            <label for="olive">Zaytun</label>
+            <input type="checkbox" id="cucumber" value="cucumber" name="cucumber">
+            <label for="cucumber">Tuzlangan bodring</label>
+            <input type="checkbox" id="mushroom" value="mushroom" name="mushroom">
+            <label for="mushroom">Qo'ziqorin</label>
+            <input type="checkbox" id="qazi" value="qazi" name="qazi">
+            <label for="qazi">Qazi</label>
+        </div>
+        <div class="extra">
+            <h3 id="extra">Qo'shimchalar</h3>
+            <input type="checkbox" id="bitter" value="bitter" name="bitter">
+            <label for="bitter">Achchiq</label>
+            <input type="checkbox" id="sausage" value="sausage" name="sausage">
+            <label for="sausage">Sosiskali</label>
+        </div>
+    </div>
+    <script src="./pizza order.js"></script>
+</body>
+
+</html>
