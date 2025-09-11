@@ -16,21 +16,27 @@ clclEl.addEventListener("click", (e)=>{
     const num1 = Number(number1El.value)
     const num2 = Number(number2El.value)
     let operation = selectEl.value
-    let result
 
     if(operation === "add"){
+        let result = 0
         result = num1 + num2
+        resultEl.textContent = result
     }
     else if(operation === "minus"){
+        let result = 0
         result = num1 - num2
+        resultEl.textContent = result
     }
     else if(operation === "multiply"){
+        let result = 1
         result = num1 * num2
+        resultEl.textContent = result
     }
     else if(operation === "divide"){
+        let result = 1
         result = num1 / num2
+        resultEl.textContent = result
     }
-       resultEl.textContent += result
     })
 resetEL.addEventListener("click", (e)=>{
     number1El.value = "";
